@@ -1518,6 +1518,7 @@ choose the best checkpoint from the run.*
 -   The best checkpoint is often not the last checkpoint, particularly when the
     validation set performance does not continue to increase over time but
     rather fluctuates about a particular value.
+    - TODO
 -   Set up the pipeline to keep track of the N best checkpoints seen so far
     during training. At the end of training, model selection is then a matter of
     choosing the best checkpoint seen during training. We call this
